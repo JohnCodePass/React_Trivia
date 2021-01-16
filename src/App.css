@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.titleArea{
+  color: rebeccapurple;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
