@@ -6,7 +6,7 @@ import Maintitle from './components/maintitle/title'
 function App() {
   return (
     <div className="App">
-      <Maintitle />
+      <Maintitle/>
     </div>
   );
 }
