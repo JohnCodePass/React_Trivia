@@ -1,5 +1,3 @@
-import ReactDOM from 'react-dom'
-
 import './options.css';
 
 
@@ -10,4 +8,3 @@ const optionspage = () => {
 }
 
 export default optionspage;
-// ReactDOM.render(optionspage, document.getElementById('root'));
