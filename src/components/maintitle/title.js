@@ -14,7 +14,7 @@ const maintitle = () => {
                 </Row>
                 <Row>
                     <Col className="d-flex justify-content-center flex-column">
-                        <Button variant="success" className="mt-5"><h1>Easy</h1></Button>
+                        <Button variant="success" as={Link} to='/easygame' className="mt-5"><h1>Easy</h1></Button>
                         <Button variant="warning" className="my-5"><h1>Hard</h1></Button>
                     </Col>
                     <Col className="d-flex justify-content-center flex-column">
