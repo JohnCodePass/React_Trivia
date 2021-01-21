@@ -1,19 +1,10 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import Optionpage from '../options/optionpage'
-
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 import './title.css'
 
 const maintitle = () => {
     return (
-
-        <Router>
 
             <Container fluid id='titleId' className="contArea d-flex justify-content-center align-items-center flex-column">
                 <Row>
@@ -32,14 +23,6 @@ const maintitle = () => {
                     </Col>
                 </Row>
             </Container>
-
-            <Switch>
-                <Route path='/options'>
-                    <Optionpage/>
-                </Route>
-            </Switch>
-
-        </Router>
     );
 }
 
