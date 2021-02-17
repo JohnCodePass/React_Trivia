@@ -9,7 +9,7 @@ const maintitle = () => {
             <Container fluid id='titleId' className="contArea d-flex justify-content-center align-items-center flex-column">
                 <Row>
                     <Col className="d-flex justify-content-center">
-                        <h1 className="titleArea">Scuffed Trivia</h1>
+                        <h1 className="titleArea"><em>Scuffed </em>Trivia</h1>
                     </Col>
                 </Row>
                 <Row>
