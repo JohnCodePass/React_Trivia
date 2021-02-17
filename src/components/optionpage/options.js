@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
-
+import './options.css'
 
 
 export default class Option extends Component {
@@ -11,7 +11,10 @@ export default class Option extends Component {
             <Container fluid id='titleId' className="contArea d-flex justify-content-center align-items-center flex-column">
                 <Row>
                     <Col>
-                        <h1>This is the options page</h1>
+                        <h1>Rules</h1>
+                        <h2>1. Select a mode</h2>
+                        <h2>2. Click an answer and then press next question</h2>
+                        <h2>3. If you wish to skip it press next question</h2>
                         
                     </Col>
                 </Row>
